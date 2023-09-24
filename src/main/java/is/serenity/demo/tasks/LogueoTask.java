@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Map;
 
-import static is.serenity.demo.ui.LogueoDemo.*;
+import static is.serenity.demo.ui.LogueoDemoUi.*;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
 public class LogueoTask implements Task {
@@ -25,9 +25,9 @@ public class LogueoTask implements Task {
             throw new RuntimeException(e);
         }
         actor.attemptsTo(
-                Enter.theValue(data.get(0).get("Usuario")).into(TXT_USUARIO).thenHit(Keys.ENTER),
-                Enter.theValue(data.get(0).get("Contraseña")).into(TXT_CONTRASEÑA).thenHit(Keys.ENTER),
-                Click.on(FIRST_NAV_MENU_ITEM)
+                //Enter.theValue(data.get(0).get("Usuario")).into(TXT_USUARIO).thenHit(Keys.ENTER),
+                //Enter.theValue(data.get(0).get("Contrasena")).into(TXT_CONTRASENA),
+                Click.on(BTN_LOGIN)
         );
     }
 

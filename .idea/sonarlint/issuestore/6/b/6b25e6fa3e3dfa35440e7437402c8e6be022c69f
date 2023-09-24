@@ -1,27 +1,0 @@
-
-y
-java:S1104"WMake TXT_USUARIO a static final constant or non-public and provide accessors if needed.(Êú‚Þÿÿÿÿÿ8¨©ÒÐ«1
-x
-java:S1104"[Make TXT_CONTRASEÃ‘A a static final constant or non-public and provide accessors if needed.(¯Œ—”8©©ÒÐ«1
-q
-java:S1104"UMake BTN_LOGIN a static final constant or non-public and provide accessors if needed.(Öžïd8©©ÒÐ«1
-|
-java:S1104"_Make FIRST_NAV_MENU_ITEM a static final constant or non-public and provide accessors if needed.(×“Ÿ¨8©©ÒÐ«1
-S
-java:S1444"1Make this "public static TXT_USUARIO" field final(Êú‚Þÿÿÿÿÿ8©©ÒÐ«1
-R
-java:S1444"5Make this "public static TXT_CONTRASEÃ‘A" field final(¯Œ—”8©©ÒÐ«1
-K
-java:S1444"/Make this "public static BTN_LOGIN" field final(Öžïd8©©ÒÐ«1
-V
-java:S1444"9Make this "public static FIRST_NAV_MENU_ITEM" field final(×“Ÿ¨8©©ÒÐ«1
-x
-java:S3008"VRename this field "TXT_USUARIO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Êú‚Þÿÿÿÿÿ8ª©ÒÐ«1
-w
-java:S3008"ZRename this field "TXT_CONTRASEÃ‘A" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯Œ—”8ª©ÒÐ«1
-p
-java:S3008"TRename this field "BTN_LOGIN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Öžïd8ª©ÒÐ«1
-{
-java:S3008"^Rename this field "FIRST_NAV_MENU_ITEM" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×“Ÿ¨8ª©ÒÐ«1
-\
-java:S1118":Add a private constructor to hide the implicit public one.(ÌÏ¯ðÿÿÿÿÿ8¬©ÒÐ«1

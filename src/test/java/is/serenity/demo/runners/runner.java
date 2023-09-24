@@ -10,9 +10,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features/agregar.feature",
         glue = "is.serenity.demo.stepDefinitions",
         snippets = CucumberOptions.SnippetType.CAMELCASE
-
 )
-
 
 public class runner {
 }

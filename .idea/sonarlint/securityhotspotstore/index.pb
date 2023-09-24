@@ -5,8 +5,6 @@
 gradlew,5\b\5bbfa66edb4db3c7c33c5181f43510990d3307f9
 ?
 settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
-b
-2src/test/java/is/serenity/demo/runners/runner.java,9\4\943d5fb2c34f97b15333aee0a3930ed71b70948d
 <
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
 _
@@ -15,11 +13,13 @@ i
 9src/main/java/is/serenity/demo/utils/EsperaImplicita.java,d\5\d560a41ccd5544aa0d63bb6db008417160ffef27
 `
 0src/main/java/is/serenity/demo/utils/Random.java,2\2\220a5796e6d640c1fd2667310acca1f4f90957d2
-m
-=src/main/java/is/serenity/demo/questions/ValidarQuestion.java,b\8\b8dc516ba57555e324c4553f6d419b893f9fae7b
-d
-4src/main/java/is/serenity/demo/tasks/LogueoTask.java,b\3\b3db6b11b3033cb4e07409856b7e3a9539892f07
-z
-Jsrc/test/java/is/serenity/demo/stepDefinitions/agregarStepDefinitions.java,e\b\eb0e6bd2c3d7f3748df0f5e089f3525ffb451a5a
+c
+3src/main/java/is/serenity/demo/ui/LogueoDemoUi.java,d\9\d95aaff39d1012788730ea78717cf7a4791a1095
+b
+2src/main/java/is/serenity/demo/ui/DashboardUi.java,1\b\1b06fcf926220ec130cd0cfc479bb98cef5fdc9a
 a
-1src/main/java/is/serenity/demo/ui/LogueoDemo.java,6\b\6b25e6fa3e3dfa35440e7437402c8e6be022c69f
+1src/main/java/is/serenity/demo/ui/ProductsUi.java,4\6\4616c2db8ec50a0f55f611f39f15ccf1af006e49
+f
+6src/main/java/is/serenity/demo/tasks/ProductsTask.java,6\b\6b0c3056e67e03fb19f17d31711d5fccbfae900c
+b
+2src/test/java/is/serenity/demo/runners/runner.java,9\4\943d5fb2c34f97b15333aee0a3930ed71b70948d
