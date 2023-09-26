@@ -17,11 +17,13 @@ public class NewProductUi {
             .located(By.xpath("//div[@id='s2id_Serenity_Demo_Northwind_ProductDialog9_SupplierID']"));
 
     public static Target SELEC_PROOVEDOR=Target.the("seleccionar proovedor")
-            .located(By.xpath("//span[@class='select2-chosen"));
+            .located(By.xpath("//li[@class='select2-results-dept-0 select2-result select2-result-selectable']"));
     public static Target LIST_CATEGORIA=Target.the("lista de categorias")
             .located(By.xpath("//div[@id='s2id_Serenity_Demo_Northwind_ProductDialog9_CategoryID']"));
     public static Target SELEC_CATEGORIA=Target.the("seleccionar categoria")
-            .located(By.xpath("//a/span[@id='select2-chosen-4']]"));
+            .located(By.xpath("//li[@class='select2-results-dept-0 select2-result select2-result-selectable']"));
+    public static Target SCROLL_PAG=Target.the("bajar la pagina")
+            .locatedBy("div.ui-widget-overlay.ui-front");
     public static Target INPUT_CANT=Target.the("cantidad por unidad")
             .located(By.xpath("input[@id='Serenity_Demo_Northwind_ProductDialog9_QuantityPerUnit']"));
 

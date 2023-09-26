@@ -6,6 +6,7 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.*;
+import net.serenitybdd.screenplay.waits.WaitUntil;
 import org.openqa.selenium.Keys;
 
 
@@ -18,10 +19,11 @@ import java.util.Map;
 import static is.serenity.demo.ui.NewProductUi.*;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
+import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 
 public class NewProductTask implements Task {
 
-    File file = new File("C:\\Users\\TulFer\\casa.png");
+    File file = new File("C:\\Users\\Fer\\IdeaProjects\\serenityScreenplay\\src\\test\\resources\\Data\\1.png");
     String rutapath=file.getAbsolutePath();
     @Override
     public <T extends Actor> void performAs(T actor) {
@@ -34,12 +36,11 @@ public class NewProductTask implements Task {
         actor.attemptsTo(
                 Enter.theValue(data.get(0).get("NombreProducto")).into(NOMBRE_PROD).thenHit(Keys.ENTER),
                 AleatorioNewProduct.randomListas(),
-                Click.on(BTN_IMAGEN),
-                Enter.keyValues(rutapath).into(SUBIR_IMAGEN),
+                //Click.on(BTN_IMAGEN),
+                //Enter.keyValues(rutapath).into(SUBIR_IMAGEN),
                 //WaitUntil.the(SUBIR_IMAGEN, isVisible()),
-                //Upload.theFile((rutaArchivo).,
-
-                Scroll.to(INPUT_CANT),
+                //Upload.theFile((),
+                Scroll.to(SCROLL_PAG),
                 Enter.theValue(data.get(0).get("Cantidad")).into(INPUT_CANT).thenHit(Keys.ENTER),
                 Enter.theValue(data.get(0).get("Precio")).into(INPUT_PRECIO).thenHit(Keys.ENTER),
                 Enter.theValue(data.get(0).get("Stock")).into(INPUT_STOCK).thenHit(Keys.ENTER),

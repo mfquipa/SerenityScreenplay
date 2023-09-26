@@ -23,7 +23,7 @@ public class AleatorioNewProduct implements Interaction {
                 Click.on(LIST_PROOVEDOR)
         );
 
-        List<WebElementFacade> listProveedores = LIST_PROOVEDOR.resolveAllFor(actor);
+        List<WebElementFacade> listProveedores = SELEC_PROOVEDOR.resolveAllFor(actor);
         Random random = new Random();
         int indexRandom = random.nextInt(listProveedores.size());
         System.out.printf("random");

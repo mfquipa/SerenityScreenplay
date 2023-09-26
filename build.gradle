@@ -15,7 +15,7 @@ plugins {
 }
 
 defaultTasks 'clear', 'test', 'aggregate'
-group 'is.demo.serenity'
+group 'com.exito'
 version '1.0-SNAPSHOT'
 
 compileJava.options.encoding = "UTF-8"
@@ -32,21 +32,19 @@ dependencies {
     implementation 'net.serenity-bdd:serenity-junit5:3.3.0'
     implementation 'net.serenity-bdd:serenity-cucumber:3.6.0'
     implementation 'net.serenity-bdd:serenity-core:3.6.0'
+    implementation 'org.slf4j:slf4j-simple:2.0.0'
+    testImplementation 'org.hamcrest:hamcrest:2.2'
     implementation group: 'org.apache.poi', name: 'poi', version: '3.17'
     implementation group: 'org.apache.poi', name: 'poi-ooxml', version: '3.17'
-    implementation 'org.slf4j:slf4j-simple:1.7.7'
-    implementation 'org.seleniumhq.selenium:selenium-java:4.7.1'
-    implementation 'net.serenity-bdd:serenity-screenplay:2.4.50'
-    implementation 'io.github.bonigarcia:webdrivermanager:5.4.1'
-    }
+}
 
 test {
     useJUnitPlatform()
 }
 
 serenity{
-    testRoot="is.serenity.demo.runners"
-    requirementsBaseDir=["src/test/resources/features/"]
+    testRoot="com.haceb.runners"
+    requirementsBaseDir=["src/test/resources/features/Login.feature"]
     reports=["single-page-html"]
 }
 
